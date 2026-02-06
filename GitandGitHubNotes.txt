@@ -1,0 +1,40 @@
+Git >> Version Control
+-> It is distributed
+-> Collaboration
+-> Tracking Changes
+-> Recovery
+
+Simillar Tools:-
+
+BitBucket
+GitLabs
+GitPod
+
+
+For the first time, we need to configure github in our system
+
+git config --global user.name "Rajarshi611"
+git config --global user.email "rajarshiroy611@gmail.com"
+
+git config --global color.ui auto
+
+1. Mandatory Command:-
+
+>> git init
+
+>> git remote add origin https://github.com/Rajarshi611/GitDemo.git (For a successful connection with the local github account from the editor)
+
+2. Pull Request:-
+
+>> git pull origin main (main is written if there is no other branch)
+
+3. Check Git Status:-
+
+>> git status
+
+4. Push with commit in git
+
+>> git add .
+>> git status
+>> git commit -m "Initial Commit"
+>> git push
