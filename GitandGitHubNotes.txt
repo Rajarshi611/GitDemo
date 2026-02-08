@@ -42,3 +42,7 @@ git config --global color.ui auto
 5. Create a new branch
 
 >> git checkout -b "BranchName"
+
+6. Switch to an existing branch
+
+>> git checkout "BranchName"
